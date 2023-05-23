@@ -1,7 +1,22 @@
-header{
-    background-color: rgb(236, 28, 219);
+*{margin: 0;
+ padding: 0;}
+
+.cabeça{
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 9px ;
 }
 
-body{
-    background-color: rgb(160, 28, 236);
+.cabecalho-img{
+
+    width: 75%;
+}
+
+.cabecalho-item{
+    display:inline-block;
+    margin:0 13px ;
+    padding: 27px;
+    font-size: 20px;
 }
