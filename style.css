@@ -1,22 +1,22 @@
-*{margin: 0;
- padding: 0;}
+*{margin: 0%;
+ padding: 0%;}
 
-.cabeça{
+.head{
     background-color: lightslategray;
-    color: white;
+    color:white;
     display: flex;
     justify-content: space-around;
-    padding: 9px ;
+    padding: 2px;
 }
 
-.cabecalho-img{
-
-    width: 75%;
+.cabeçalho-img{
+    width: 100%;
+    padding: 5% 2% 0%;
+}
+  
+.link{
+    display:inline-block;        
 }
 
-.cabecalho-item{
-    display:inline-block;
-    margin:0 13px ;
-    padding: 27px;
-    font-size: 20px;
-}
+body{
+    background-color: rgb(74, 85, 95); }
