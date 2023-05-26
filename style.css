@@ -1,22 +1,37 @@
-*{margin: 0%;
- padding: 0%;}
-
+*{padding: 0% 0% 0% 0%;
+margin: 0% 0% 0% 0%;
+}
 .head{
-    background-color: lightslategray;
     color:white;
     display: flex;
     justify-content: space-around;
-    padding: 2px;
+    padding: 0%;
 }
-
 .cabeçalho-img{
     width: 100%;
     padding: 5% 2% 0%;
-}
-  
+} 
 .link{
     display:inline-block;        
 }
+.seleção{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    color: white;
+    background-color: black; 
+    padding: 0% 10%;
+}
+.lutadores{
+    width: 23%; 
+}
+.textos-div{
+   color: white;
+   width: 30%;
+}
 
 body{
-    background-color: rgb(74, 85, 95); }
+    background-image:linear-gradient(  rgb(68, 68, 75),rgb(143, 141, 141) );
+} 
