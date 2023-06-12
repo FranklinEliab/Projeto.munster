@@ -1,37 +1,38 @@
-*{padding: 0% 0% 0% 0%;
-margin: 0% 0% 0% 0%;
-}
-.head{
+.head { 
     color:white;
     display: flex;
     justify-content: space-around;
     padding: 0%;
 }
-.cabeçalho-img{
-    width: 100%;
+.cabecalho-lista {
+    width: 40px;
     padding: 5% 2% 0%;
 } 
-.link{
-    display:inline-block;        
+.link {
+    display: grid;       
 }
-.seleção{
+.seleção {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.titulo{
+.titulo {
     color: white;
     background-color: black; 
     padding: 0% 10%;
 }
-.lutadores{
+.lutadores {
     width: 23%; 
 }
-.textos-div{
+.textos-div {
    color: white;
    width: 30%;
 }
 
-body{
+body {
     background-image:linear-gradient(  rgb(68, 68, 75),rgb(143, 141, 141) );
 } 
+
+.teste1 {
+    width: 30px;
+}
