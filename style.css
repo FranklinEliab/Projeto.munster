@@ -1,38 +1,124 @@
-.head { 
-    color:white;
-    display: flex;
-    justify-content: space-around;
-    padding: 0%;
-}
-.cabecalho-lista {
-    width: 40px;
-    padding: 5% 2% 0%;
-} 
-.link {
-    display: grid;       
-}
-.seleção {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.titulo {
-    color: white;
-    background-color: black; 
-    padding: 0% 10%;
-}
-.lutadores {
-    width: 23%; 
-}
-.textos-div {
-   color: white;
-   width: 30%;
-}
-
 body {
-    background-image:linear-gradient(  rgb(68, 68, 75),rgb(143, 141, 141) );
-} 
+    background-color: #1E3547;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-.teste1 {
-    width: 30px;
+header {
+    background-color: #0B1D2B;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #0B1D2B;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #F7931E;
+}
+
+section {
+    background-color: #0B1D2B;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 16px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.testimonial {
+    background-color: #0B1D2B;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.contact-form {
+    margin: 20px;
+}
+
+footer {
+    footer {
+        background-color: #333;
+        color: #fcfcfc;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        font-size: 35px;
+    
+    }
+    
+    .input-group {
+        margin-bottom: 10px;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid hsl(0, 0%, 80%);
+        border-radius: 5px;
+    }
+    
+    button {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    .whatsapp-icon img {
+        width: 40px;
+        height: 40px;
+    }
 }
